@@ -28,4 +28,12 @@ public class Login {
 	LOgh.Searches().sendKeys("rediiff");
 	LOgh.SearchButton().click();
 }
+	
+	public void main () {
+		WebDriver driver = new ChromeDriver();
+		RediffHomaPage LOgh = new RediffHomaPage(driver);
+		LOgh.Searches().sendKeys("rediiff");
+		LOgh.SearchButton().click();
+	
+	}
 }
